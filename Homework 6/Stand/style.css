@@ -1,0 +1,23 @@
+.stand {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%; /* Ширина всей таблицы */
+    height: -900px;
+    margin: 100px;
+   }
+   TD{
+    vertical-align: top; /* Вертикальное выравнивание в ячейках */
+    padding: 100px; /* Поля вокруг ячеек */
+   }
+   .leftcol{
+    width: 100px; /* Ширина левой колонки */
+    background: rgb(88, 86, 86); /* Цвет фона левой колонки */
+   }
+   .centercol{
+       width: 100px;
+       background-color: #fc3;
+   }
+   .rightcol{
+    background: rgb(237, 117, 5); /* Цвет фона правой колонки */
+   }

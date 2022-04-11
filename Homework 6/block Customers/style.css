@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.title__section{
+    padding: 50px;
+    position: relative;
+    height: 129px;
+}
+.title__text{
+    border: 10px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+.for__line{
+    align-items: center;
+    width: 170px;
+    border: 0.5px solid #EC7979;
+}
+.text__content{
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+}
+.message__section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+.message__customers{
+    position: relative;
+    display: flex;
+    border: 1px solid #E2E2E2;
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.13px;
+    align-items: center;
+    color: #86878B;
+}
+.item__content{
+    display: flex;
+    flex-direction: column;
+}
+.user__info{
+    display: flex;
+    margin: 66px 2px 3px -25px;
+}
+.user__photo{
+    align-self: flex-start;
+}
+.message__customers:after{
+    content: url('img/say__message.png');
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+.img__customers-block{
+    display: flex;
+    
+}
+.user__photo{
+
+}
+.job__position{
+
+}
+.item__name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+}
+.rank__name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
